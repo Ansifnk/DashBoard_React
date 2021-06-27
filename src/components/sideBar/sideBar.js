@@ -10,6 +10,7 @@ import {
     ChatBubbleOutline, WorkOutline,
     Report
 } from '@material-ui/icons'
+import { Link } from 'react-router-dom'
 
 const sideBar = () => {
     return (
@@ -18,10 +19,12 @@ const sideBar = () => {
                 <div className="sidebarMenu">
                     <h3 className="sideBarTitle">Dashboard</h3>
                     <ul className="sidebarList">
-                        <li className="sideBarListItem active">
-                            <LineStyle className='sidebarIcon' />
-                            Home
-                        </li>
+                        <Link to='/' className='link' >
+                            <li className="sideBarListItem active">
+                                <LineStyle className='sidebarIcon' />
+                                Home
+                            </li>
+                        </Link>
                         <li className="sideBarListItem">
                             <Timeline />
                             Analytics
@@ -37,14 +40,20 @@ const sideBar = () => {
                 <div className="sidebarMenu">
                     <h3 className="sideBarTitle">Quick Menu</h3>
                     <ul className="sidebarList">
-                        <li className="sideBarListItem ">
-                            <PermIdentity className='sidebarIcon' />
-                            Users
-                        </li>
-                        <li className="sideBarListItem">
-                            <Storefront />
-                            Products
-                        </li>
+
+                        <Link to='/users' className='link' >
+                            <li className="sideBarListItem ">
+                                <PermIdentity className='sidebarIcon' />
+                                Users
+                            </li>
+                        </Link>
+
+                        <Link to='/products' className='link' >
+                            <li className="sideBarListItem">
+                                <Storefront />
+                                Products
+                            </li>
+                        </Link>
                         <li className="sideBarListItem">
                             <AttachMoney />
                             Transactions

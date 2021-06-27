@@ -1,3 +1,6 @@
+import User from '../Assets/images/User.png'
+import Product from '../Assets/images/Product.png'
+
 export const userData = [
     {
         name: 'Jan',
@@ -59,4 +62,50 @@ export const userData = [
         'Active User': 4577,
 
     },
+];
+
+export const Users = [
+    { id: 1, lastName: 'Snow', avatar: User, email: 'Lorem@ipsum.com', status: 'Active', transaction: 'Rs 145.23' },
+    { id: 2, lastName: 'Lorem', avatar: User, email: 'Lorem@ipsum.com', status: 'Active', transaction: 'Rs 145.23' },
+    { id: 3, lastName: 'Snow', avatar: User, email: 'Lorem@ipsum.com', status: 'Active', transaction: 'Rs 145.23' },
+    { id: 4, lastName: 'jon', avatar: User, email: 'Lorem@ipsum.com', status: 'Active', transaction: 'Rs 145.23' },
+    { id: 5, lastName: 'mickle', avatar: User, email: 'Lorem@ipsum.com', status: 'Active', transaction: 'Rs 145.23' },
+    { id: 6, lastName: 'Snow', avatar: User, email: 'Lorem@ipsum.com', status: 'Active', transaction: 'Rs 145.23' },
+    { id: 7, lastName: 'Lorem', avatar: User, email: 'Lorem@ipsum.com', status: 'Active', transaction: 'Rs 145.23' },
+    { id: 8, lastName: 'Snow', avatar: User, email: 'Lorem@ipsum.com', status: 'Active', transaction: 'Rs 145.23' },
+    { id: 9, lastName: 'jon', avatar: User, email: 'Lorem@ipsum.com', status: 'Active', transaction: 'Rs 145.23' },
+    { id: 10, lastName: 'mickle', avatar: User, email: 'Lorem@ipsum.com', status: 'Active', transaction: 'Rs 145.23' },
+
+];
+export const Products = [
+    { id: 1, name: 'samsungw', avatar: Product, stock: 99, status: 'Active', price: 'Rs 145.23' },
+    { id: 2, name: 'samsungem', avatar: Product, stock: 99, status: 'Active', price: 'Rs 145.23' },
+    { id: 3, name: 'samsungw', avatar: Product, stock: 99, status: 'Active', price: 'Rs 145.23' },
+    { id: 4, name: 'samsung', avatar: Product, stock: 99, status: 'Active', price: 'Rs 145.23' },
+    { id: 5, name: 'samsungkle', avatar: Product, stock: 99, status: 'Active', price: 'Rs 145.23' },
+    { id: 6, name: 'samsungw', avatar: Product, stock: 99, status: 'Active', price: 'Rs 145.23' },
+    { id: 7, name: 'samsungem', avatar: Product, stock: 99, status: 'Active', price: 'Rs 145.23' },
+    { id: 8, name: 'samsungw', avatar: Product, stock: 99, status: 'Active', price: 'Rs 145.23' },
+    { id: 9, name: 'samsung', avatar: Product, stock: 99, status: 'Active', price: 'Rs 145.23' },
+    { id: 10, name: 'samsungkle', avatar: Product, stock: 99, status: 'Active', price: 'Rs 145.23' },
+
+];
+
+export const prodcutsData = [
+    {
+        name: 'Jan',
+        'sales': 4000,
+
+    },
+    {
+        name: 'Feb',
+        'sales': 7000,
+
+    },
+    {
+        name: 'Mar',
+        'sales': 5500,
+
+    },
+
 ];
